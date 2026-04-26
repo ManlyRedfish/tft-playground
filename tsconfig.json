@@ -8,7 +8,10 @@
     "outDir": "dist",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "jsx": "react-jsx",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "types": ["vitest/globals"]
   },
-  "include": ["src", "tests"]
+  "include": ["src", "tests", "vite.config.ts"]
 }
